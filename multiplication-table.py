@@ -27,5 +27,5 @@ a = int(input("Width of multiplication table: "))
 b = int(input("Height of multiplication table: "))
 for l in range(1,a):
     for i in range(1,b):
-        print("{0:>3}".format(i*l))
+        print("{0:>3}".format(i*l), end=' ')
         
