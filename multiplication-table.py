@@ -28,4 +28,4 @@ b = int(input("Height of multiplication table: "))
 for l in range(1,a+1):
     for i in range(1,b+1):
         print("{0:>3}".format(i*l), end=' ')
-        
+    print(a+1)    
