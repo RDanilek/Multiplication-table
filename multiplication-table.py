@@ -23,6 +23,6 @@ Height of multiplication table: 8
 """
 a = int(input("Width of multiplication table: "))
 b = int(input("Height of multiplication table: "))
-for l in range(1,a)
-for i in range(1,b)
-    print(i*l)
+for l in range(1,a):
+    for i in range(1,b):
+        print(i*l)
